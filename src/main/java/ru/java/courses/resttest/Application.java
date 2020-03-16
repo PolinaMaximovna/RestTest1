@@ -7,10 +7,10 @@ import org.springframework.context.annotation.ComponentScan;
 
 
 @SpringBootApplication
-public class RestTestApplication {
+public class Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(RestTestApplication.class, args);
+		SpringApplication.run(Application.class, args);
 	}
 
 }
